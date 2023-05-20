@@ -111,6 +111,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--overlays-shadows-headings);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
