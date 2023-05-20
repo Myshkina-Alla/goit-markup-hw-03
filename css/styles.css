@@ -112,6 +112,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--overlays-shadows-headings);
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ctas);
