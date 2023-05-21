@@ -245,7 +245,8 @@ img {
 /* Footer */
 .footer {
   background: var(--overlays-shadows-headings);
-  padding: 100px 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-studio-footer {
   color: var(--backgrounds);
@@ -256,7 +257,7 @@ img {
 }
 .logo-footer {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 }
 .footer-paragrapth {
   color: var(--backgrounds);
