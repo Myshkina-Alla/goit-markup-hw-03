@@ -101,8 +101,6 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu-link {
@@ -111,6 +109,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--overlays-shadows-headings);
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -177,12 +178,11 @@ img {
   color: var(--header-background);
 }
 /* Activities */
-.activities {
-  padding: 120px 0;
-}
+
 .activities-list {
   display: flex;
   gap: 24px;
+  padding: 120px 0;
 }
 .active-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
