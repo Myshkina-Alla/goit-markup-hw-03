@@ -270,13 +270,14 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio-list-bottom {
+/* .portfolio-list-bottom {
   padding-bottom: 72px;
-}
+} */
 .portfolio-list {
   display: flex;
   gap: 24px;
   justify-content: center;
+  padding-bottom: 72px;
 }
 .navigation-portfolio-btn {
   font-family: "Roboto", sans-serif;
