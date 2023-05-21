@@ -182,11 +182,13 @@ img {
   color: var(--header-background);
 }
 /* Activities */
-
+.activities {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .activities-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .active-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -197,7 +199,7 @@ img {
 
 /* What are we doing */
 .doing {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .doing-title {
   line-height: 1.11;
