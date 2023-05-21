@@ -31,9 +31,8 @@ img {
 .container {
   width: 1158px;
   padding: 0 15px;
-
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 .list {
   list-style: none;
@@ -100,8 +99,6 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .menu-link {
@@ -248,6 +245,7 @@ img {
 }
 .logo-studio-footer {
   color: var(--backgrounds);
+  margin-right: 0;
 }
 .logo-studio-footer:hover,
 .logo-studio-footer:focus {
@@ -256,6 +254,7 @@ img {
 .logo-footer {
   margin-bottom: 16px;
   display: inline-block;
+  margin-right: 0;
 }
 .footer-paragrapth {
   color: var(--backgrounds);
@@ -268,9 +267,6 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-/* .portfolio-list-bottom {
-  padding-bottom: 72px;
-} */
 .portfolio-list {
   display: flex;
   gap: 24px;
@@ -296,15 +292,12 @@ img {
   background-color: var(--ctas);
   border: 1px solid transparent;
 }
-/* .navigation-portfolio-btn:hover,
-.navigation-portfolio-btn:focus {
-  border: 1px solid transparent;
-} */
+
 .portfolio-subtitle {
   margin-bottom: 8px;
 }
 .portfolio-paragrapth {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   margin-top: 8px;
 }
 .portfolio {
