@@ -266,8 +266,11 @@ img {
 }
 
 /* Portfolio */
-.portfolio-list-bottom {
+.content {
   padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio-list-bottom {
   padding-bottom: 72px;
 }
 .portfolio-list {
