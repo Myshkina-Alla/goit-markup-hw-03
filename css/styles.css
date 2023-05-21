@@ -277,7 +277,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .navigation-portfolio-btn {
   font-family: "Roboto", sans-serif;
@@ -296,8 +296,12 @@ img {
 .navigation-portfolio-btn:focus {
   color: var(--header-background);
   background-color: var(--ctas);
+  border: 1px solid transparent;
 }
-
+/* .navigation-portfolio-btn:hover,
+.navigation-portfolio-btn:focus {
+  border: 1px solid transparent;
+} */
 .portfolio-subtitle {
   margin: 0;
 }
@@ -318,7 +322,7 @@ img {
   flex-wrap: wrap;
 }
 .list-portfolio {
-  flex-basis: calc((100%- 48) / 3);
+  width: calc((100% - 48) / 3);
 }
 .card-image {
   display: block;
